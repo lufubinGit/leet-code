@@ -1,6 +1,6 @@
 //: Playground - noun: a place where people can play
 
-//// 求字符串中 最长的不重复的字符串
+////Q4 求字符串中 最长的不重复的字符串
 func lengthOfLongestSubstring(_ s: String) -> Int {
     if s.count < 2 {return s.count }
     var maxValue = 1
